@@ -1,8 +1,7 @@
-# React + Vite
+# Calcolatrice
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+In questo piccolo progetto ho sviluppato una semplica calcolatrice con react con le seguenti funzionalita
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+La calcolatrice consente all'utente di aggiungere e rimuovere righe, ognuna delle quali rappresenta un termine nell'operazione di somma o sottrazione.
+Ogni riga può essere abilitata o disabilitata tramite un apposito pulsante di controllo, e le righe disabilitate vengono escluse automaticamente dalla somma.
+Il risultato della somma viene aggiornato in tempo reale mentre l'utente inserisce i valori.
